@@ -9,7 +9,7 @@ import android.app.Application
 import android.content.Context
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
-import io.github.forkmaintainers.iceraven.components.PagedAMOAddonsProvider
+import io.github.forkmaintainers.fuydg-iceraven.components.PagedAMOAddonsProvider
 import androidx.core.app.NotificationManagerCompat
 import mozilla.appservices.remotesettings.RemoteSettingsServer
 import mozilla.components.feature.addons.AddonManager
