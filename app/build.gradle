@@ -53,7 +53,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "io.github.fuydg.iceraven"
+        applicationId "io.github.valid.iceraven"
         minSdkVersion = config.minSdkVersion
         compileSdk = config.compileSdkVersion
         targetSdkVersion = config.targetSdkVersion
