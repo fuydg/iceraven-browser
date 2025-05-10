@@ -37,7 +37,7 @@ jobs:
 
       - name: Relpace strings
         run: |
-          sed -i 's/Firefox/Iceraven/g' app/src/*/res/values*/*strings.xml
+          sed -i 's/Firefox/Meowfox/g' app/src/*/res/values*/*strings.xml
           sed -i '/about_content/s/Mozilla/@forkmaintainers/' app/src/*/res/values*/*strings.xml
 
       - name: Build forkRelease variant of app
