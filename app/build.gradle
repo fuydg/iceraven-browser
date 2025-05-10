@@ -198,7 +198,7 @@ android {
             def deepLinkSchemeValue = "iceraven-debug"
             buildConfigField "String", "DEEP_LINK_SCHEME", "\"$deepLinkSchemeValue\""
             manifestPlaceholders.putAll([
-                    "sharedUserId": "io.github.forkmaintainers.iceraven.sharedID",
+                    "sharedUserId": "io.github.fuydg.iceraven.sharedID",
                     "deepLinkScheme": deepLinkSchemeValue,
             ])
             // Use custom default allowed addon list
@@ -213,7 +213,7 @@ android {
             def deepLinkSchemeValue = "iceraven"
             buildConfigField "String", "DEEP_LINK_SCHEME", "\"$deepLinkSchemeValue\""
             manifestPlaceholders.putAll([
-                    "sharedUserId": "io.github.forkmaintainers.iceraven.sharedID",
+                    "sharedUserId": "io.github.fuydg.iceraven.sharedID",
                     "deepLinkScheme": deepLinkSchemeValue,
             ])
             // Use custom default allowed addon list
